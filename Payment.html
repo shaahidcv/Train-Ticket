@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/Style.css" />
+    <title>Payment</title>
+  </head>
+  <body class="paymentscreen">
+    <h1
+      style="
+        text-align: center;
+        font-size: 32px;
+        color: #fff;
+        font-weight: bold;
+      "
+    >
+      Payment Gateway
+    </h1>
+    <div class="method">
+      <div class="part">
+        <input type="radio" id="card" name="method" value="card" />
+        <img src="./images/download.png" alt="Secure Payment" />
+      
+      </div>
+      <div class="card-info">
+        <label for="card">Credit Card</label>
+        <input type="text" placeholder="Card Number" /><br />
+        <input type="text" placeholder="Expiry Date" /><br />
+        <input type="text" placeholder="CVV" /><br />
+        <input type="text" placeholder="Name on Card" /><br />
+        <button class="searchbutton" type="submit"><a href="./sucess.html">Pay</a></button>
+      </div>
+
+      
+     
+      <div class="part">
+        <input type="radio" id="paypal" name="method" value="paypal" />
+        <img src="./images/download (1).png" alt="Secure Payment" />
+        <label for="paypal">PayPal</label>
+        <div class="paypal-info">
+          <button class="searchbutton" type="submit">Pay</button>
+        </div>
+      </div>
+      <div class="part">
+        <input type="radio" id="applepay" name="method" value="applepay" />
+        <img src="./images/download (2).png" alt="" />
+  
+        <label for="applepay">Apple Pay</label>
+        <div class="applepay-info">
+          <button class="searchbutton" type="submit">Pay</button>
+        </div>
+
+      </div>
+      <div class="part">
+        <input type="radio" id="googlepay" name="method" value="googlepay" />
+      
+      <img src="./images/images.png" alt="" />
+
+      <label for="googlepay">Google Pay</label>
+      <div class="googlepay-info">
+        <button class="searchbutton" type="submit">Pay</button>
+      </div>
+
+      </div>
+
+      <div class="part">
+        
+      <input type="radio" id="amazonpay" name="method" value="amazonpay" />
+      <img src="./images/download (3).png" alt="" />
+
+      <label for="amazonpay">Amazon Pay</label>
+      <div class="amazonpay-info">
+        <button class="searchbutton" type="submit">Pay</button>
+      </div>
+
+      </div>
+
+     
+      
+      <div class="terms">
+        <input type="checkbox" id="terms" name="terms" value="terms" />
+        <label for="terms">I agree to the terms and conditions</label>
+        
+        <p>By clicking submit, you agree to the terms and conditions</p>
+      </div>
+    </div>
+  </body>
+</html>
